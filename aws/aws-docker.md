@@ -242,7 +242,8 @@ EC2에 접속하여 도커 및 Git을 설치해 보자.
 처음에는 접속 후
 
     $ sudo vi /etc/ssh/sshd_config
-![Alt text](image-5.png)
+    
+![1](https://github.com/taedyv/today-i-learned/assets/136583226/04d3fa45-d489-4420-892f-f1897d225a41)
 
 passwordAuthentication 부분을 yes라고 변경
 
@@ -278,7 +279,8 @@ passwordAuthentication 부분을 yes라고 변경
 부팅 시 스왑 파일을 시작하는 설정을 하기 위해 /etc/fstab 파일을 수정한다.
 
     sudo vim /etc/fstab
-![Alt text](image.png)
+
+![2](https://github.com/taedyv/today-i-learned/assets/136583226/242e2ceb-ed71-47f1-ba80-1e6bd831a766)
 
 아래 줄을 추가해 주었다. 
 
@@ -360,19 +362,20 @@ docker client와 server(docker daemon)간 통신 방식은 기본적으로 unix 
 mysql 사용 시 외부에서 워크벤치 이용하는 방법
 
     $ sudo find / -name "my.cnf" 2>/dev/null (mysql 설정 파일 찾기)
-![Alt text](image-1.png)
+
+![3](https://github.com/taedyv/today-i-learned/assets/136583226/9dd1bd3d-44d9-4e9d-8805-5733608d5fa4)
 
 etc 접속
 
-![Alt text](image-2.png)
+![4](https://github.com/taedyv/today-i-learned/assets/136583226/02cc5e67-60d5-4c33-8e8c-d3ed504f7d5f)
 
 bind-address = 0.0.0.0 추가
 
-![Alt text](image-3.png)
+![5](https://github.com/taedyv/today-i-learned/assets/136583226/8facf59a-c799-4e90-b2fc-52dcb1feb41d)
 
 ec2 인스턴스 보안그룹 인바운드 규칙에 3306 포트 열어주기
 
-![Alt text](image-4.png)
+![6](https://github.com/taedyv/today-i-learned/assets/136583226/b0098ccf-eeff-4f04-8b15-50c9758601fb)
 
 workbench connection 등록
 
