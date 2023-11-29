@@ -322,7 +322,7 @@ docker client와 server(docker daemon)간 통신 방식은 기본적으로 unix 
 
 #### 5-3) Docker Compose 파일이 존재하는 소스 내려받기
 
-    $ git clone https://github.com/WonYong-Jang/Pharmacy-Recommendation.git
+    $ git clone https://github.com/taedyv/mtvs-project-final.git
     
 
 #### 5-4) Docker 환경변수
